@@ -18,14 +18,16 @@ Questo progetto è una simulazione di un'applicazione che gestisce il ciclo di v
    
    Se non hai già installato TypeScript, puoi farlo eseguendo il seguente comando:
 
-   ```bash
+   ```
+   bash
    npm install -g typescript
     ```
 
 2. **Compilazion del codice TyopeScript**
    Dopo aver creato il file tsconfig.json, puoi compilare il codice TypeScript con il comando:
    
-   ```tsc
+   ```
+   tsc
     ```
 
    Questo genererà il file main.js, che sarà eseguito nel browser.
