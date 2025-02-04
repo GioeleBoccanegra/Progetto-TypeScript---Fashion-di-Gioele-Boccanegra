@@ -10,5 +10,18 @@ interface IProdotto {
 
 
 interface ICliente {
+  nome: string
+  cognome: string
+  email: string
+  pagamentoPreferito: string
 
+  ordinaProdotto(prodotto: IProdotto): void
+}
+
+
+interface IProcessoProduzione {
+  nomeProcesso: string
+  descrizioneProcesso: string
+  prodottiInProduzione: IProdotto[]
+  aggiungiProdotto(prodotto: IProdotto): void
 }
